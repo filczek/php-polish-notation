@@ -1,0 +1,49 @@
+{
+  "name": "filczek/php-polish-notation",
+  "version": "1.0.0",
+  "type": "library",
+  "description": "Overengineered, abstract implementation of Infix, Prefix & Postfix notation.",
+  "keywords": [
+    "php",
+    "npn",
+    "rpn",
+    "normal polish notation",
+    "reverse polish notation",
+    "polish notation",
+    "łukasiewicz notation",
+    "lukasiewicz notation",
+    "łukasiewicz logic",
+    "lukasiewicz logic",
+    "łukasiewicz",
+    "lukasiewicz",
+    "infix notation",
+    "prefix notation",
+    "postfix notation",
+    "infix",
+    "prefix",
+    "postfix",
+    "notation"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^8.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "11.5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Filczek\\PhpPolishNotation\\": "src/"
+    },
+    "exclude-from-classmap": [
+      "/tests/"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Filczek\\PhpPolishNotation\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
